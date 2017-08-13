@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom - WP System Emails
 Plugin URI: https://github.com/Edgar-Saavedra/edgarsaavedra-wp-system-emails
-Description: A plugin showing the customization of amdin emails sent from wordpress site.
+Description: A plugin showing the customization of amdin emails sent from a wordpress site.
 Version: 1.0
 Author: Edgar-Saavedra
 Text Domain: edgarsaavedra-wp-system-emails
