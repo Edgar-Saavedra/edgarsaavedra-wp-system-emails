@@ -1,0 +1,23 @@
+<mjml>
+    <mj-body>
+        <mj-container background-color="#ffffff" >
+            <mj-section background-color="#009fe3"  vertical-align="middle"  full-width="full-width" padding-bottom="20" padding-top="20">
+                <mj-column vertical-align="middle" width="100%">
+                    <mj-text align="left" color="#000000" font-size="13px"  font-family="Ubuntu, Helvetica, Arial, sans-serif" container-background-color="transparent" vertical-align="middle" padding-left="25" padding-right="25" padding-bottom="0" padding-top="0">
+                        <p style="font-weight: 400; line-height: 30px; margin: 13px 0px;"><span style="color: rgb(255, 237, 0);"><span style="font-size: 25px;">Dear <?php print $user_email ?></span></span>
+                        </p>
+                        <!--<p style="font-weight: 400; line-height: 30px; margin: 13px 0px;"><span style="color: rgb(255, 255, 255);"><span style="font-size: 25px;"><?php print $message; ?></span></span>-->
+                        </p>
+                    </mj-text>
+                    <mj-text align="left" color="#000000" font-size="13px"  font-family="Ubuntu, Helvetica, Arial, sans-serif" vertical-align="middle" padding-left="25" padding-right="25" padding-bottom="0" padding-top="0">
+                        <p></p>
+                        <p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="color: rgb(255, 255, 255); font-family: Arial; font-size: 14.666666666666666px; white-space: pre-wrap; background-color: transparent;">Thanks,</span></p>
+                        <p style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:14.666666666666666px;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><span style="color: rgb(255, 255, 255);">Site Name</span></span>
+                        </p>
+                        <p></p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-container>
+    </mj-body>
+</mjml>

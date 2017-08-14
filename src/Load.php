@@ -4,6 +4,7 @@ namespace Custom\Plugins\CustomSystemEmails	{
 
 	use Custom\Plugins\CustomSystemEmails\Frontend\Assets;
 	use Custom\Plugins\CustomSystemEmails\Helpers\Helpers;
+	use Custom\Plugins\CustomSystemEmails\System\Emails\SystemEmails;
 
 	class Load
 	{
@@ -15,6 +16,7 @@ namespace Custom\Plugins\CustomSystemEmails	{
 		{
 			//load our frontend assets
 			(new Assets())->init();
+			(new SystemEmails())->init();
 
 			// Bring our rest interface online, example only.
 			// new Rest();
