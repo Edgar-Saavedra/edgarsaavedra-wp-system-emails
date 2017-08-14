@@ -42,7 +42,7 @@ namespace Custom\Plugins\CustomSystemEmails\System\Emails\Plugins
      */
     function filter($m, $key, $user, $user_data)
     {
-// Redefining user_login ensures we return the right case in the email.
+      //some of this was copied from retrieve_password() in wp-login.php
       $user_login = $user_data->user_login;
       $user_email = $user_data->user_email;
       $key = get_password_reset_key( $user_data );
